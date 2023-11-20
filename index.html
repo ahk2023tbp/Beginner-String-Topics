@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String-Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="margin-left: 200px; margin-bottom: 20px;">String Assignment by: Aman.</h1>
+        <div id="q01">
+        <h3>Concatinate the sentences:</h3>
+        <label for="fstSen" >Type a sentence :</label>
+        <input type="text" id="fstSen"  style="padding: 5px;">
+        <label for="fstSen">Type another sentence :</label>
+        <input type="text" id="scndSen" style="padding: 5px;"><br>
+        <button onclick="jodoConcat()">Concatinate</button>
+        <h3>Concatinated Sentence:</h3>
+        <div id="output_1"></div>
+    </div>
+    <br>
+    <br>
+    
+
+
+    <!-- question-2---------->
+    <div id="q02">
+         <h3>Find the length of the sentence:</h3>
+         <label for="sentLen">Type your Sentence here :</label>
+         <input type="text" id="sentLen"  style="padding: 5px;">
+         <button onclick="findLength()">Length with Space</button>
+         <button onclick="findWSLength()">Length without Space</button>
+         <h3>Output:</h3>
+         <div id="lengthOutput"></div>
+    </div>
+    <br>
+    <br>
+       
+
+
+
+        <!-- question-3------------------>
+        <!-- <div id="q03">
+            <h3>Type an index number and get a Character:</h3> 
+            <label for="textLikho">Type your text here:</label>
+            <input type="text" id="textLikho"><br>
+            <label for="indexLikho">Type your index here:</label>
+            <input type="text" id="indexLikho">
+            <button onclick="findYourChar()">Find your Character</button>
+            <div id="output_indexing"></div>
+            <h1>#working on it</h1>
+            
+        </div>
+        <br>
+        <br> -->
+
+        <div id="q04">
+            <h3>Explore String Methods:</h3> 
+            <label for="txtINP">Type your text here:</label>
+            <input type="text" id="txtINP"  style="padding: 5px;">
+            <label for="indexInput">Type index number if required</label>
+            <input type="text" id="indexInput" style="padding: 5px;"><br>
+            <button onclick="karoLowerCase()">lowerCase()</button>
+            <button onclick="karoUpperCase()">UpperCase()</button>
+            <button onclick="findChar()">CharAt()</button>
+            <!-- <button onclick="subStringer()">subString()</button> -->
+           <!-- <button onclick="findYourChar()">Find your Character</button><BR>
+            <button onclick="findYourChar()">Find your Character</button>
+            <button onclick="findYourChar()">Find your Character</button>
+            <button onclick="findYourChar()">Find your Character</button>
+            <button onclick="findYourChar()">Find your Character</button> -->
+            <h3>Output Here:</h3>
+            <div id="output_dedo"></div>
+            
+        </div>
+       
+
+<script src="./java.js"></script>
+</body>
+</html>
